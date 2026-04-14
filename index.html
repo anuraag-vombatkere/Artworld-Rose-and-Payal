@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artworld Rose & Payal — Luxury Decor & Event Styling</title>
+  <meta name="description" content="Artworld Rose & Payal is a luxury decor and event styling house crafting immersive, art-curated experiences. Explore our collections, past events, and book your styling session.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="bg-decorations">
+    <div class="bg-splash splash-1"></div>
+    <div class="bg-splash splash-2"></div>
+    <div class="bg-splash splash-3"></div>
+    <div class="bg-splash splash-4"></div>
+    <div class="bg-splash splash-5"></div>
+    <div class="bg-splash splash-6"></div>
+    <div class="bg-splash splash-7"></div>
+    <div class="bg-splash splash-8"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.png" alt="Artworld Rose & Payal Logo" class="nav-logo-img">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#collections" class="nav-link" data-label="Collections">
+          <span class="nav-drip"></span>Collections
+        </a></li>
+        <li><a href="#artists" class="nav-link" data-label="Artists">
+          <span class="nav-drip"></span>Artists
+        </a></li>
+        <li><a href="#styling" class="nav-link" data-label="Styling">
+          <span class="nav-drip"></span>Styling
+        </a></li>
+        <li><a href="events.html" class="nav-link" data-label="Events">
+          <span class="nav-drip"></span>Events
+        </a></li>
+        <li><a href="#about" class="nav-link" data-label="About Us">
+          <span class="nav-drip"></span>About Us
+        </a></li>
+        <li><a href="contact.html" class="nav-link" data-label="Contact">
+          <span class="nav-drip"></span>Contact
+        </a></li>
+      </ul>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+
+    <div class="hero-content">
+      <!-- Brand Name Heading -->
+      <div class="hero-brand-name">
+        <div class="hero-logo-container">
+          <img src="assets/logo.png" alt="Artworld Rose &amp; Payal" class="hero-logo">
+        </div>
+        <div class="hero-brand-rule"><span class="hero-brand-diamond">◆</span></div>
+        <h1 class="hero-brand-sub">
+          <span class="hero-brand-artworld">Artworld</span>
+          <span class="hero-brand-rp">Rose &amp; Payal</span>
+        </h1>
+      </div>
+
+      <p class="hero-tagline">Luxury Decor & Curated Event Styling</p>
+      <p class="hero-sub">Where every space becomes a living canvas.</p>
+
+      <div class="hero-actions">
+        <a href="contact.html" class="btn-primary" id="ctaButton">
+          <span class="btn-text">BOOK YOUR STYLING SESSION</span>
+          <div class="btn-gradient-overlay"></div>
+        </a>
+        <a href="#collections" class="btn-ghost">Explore Collections</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Strip -->
+  <section class="about-strip">
+    <div class="strip-inner">
+      <div class="strip-item">
+        <span class="strip-number">200+</span>
+        <span class="strip-label">Events Curated</span>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item">
+        <span class="strip-number">50+</span>
+        <span class="strip-label">Exclusive Artists</span>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item">
+        <span class="strip-number">8</span>
+        <span class="strip-label">Years of Excellence</span>
+      </div>
+      <div class="strip-divider"></div>
+      <div class="strip-item">
+        <span class="strip-number">12</span>
+        <span class="strip-label">Countries Served</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections Section -->
+  <section class="collections" id="collections">
+    <div class="section-header">
+      <span class="section-label">Our Curation</span>
+      <h2 class="section-title">Featured Collections</h2>
+      <p class="section-sub">Each piece is chosen for its story, its soul, and its ability to transform a space into art.</p>
+    </div>
+
+    <div class="collections-grid">
+      <div class="product-card" id="product1">
+        <div class="product-pedestal">
+          <div class="product-aura"></div>
+          <img src="assets/product_sculpture.png" alt="Sculptural Form No. 7 — Handcrafted ceramic" class="product-img">
+        </div>
+        <div class="product-info">
+          <span class="product-category">Sculpture</span>
+          <h3 class="product-name">Sculptural Form No. 7</h3>
+          <p class="product-desc">Handcrafted porcelain, kiln-fired. Each curve a meditation on form and negative space.</p>
+          <a href="#" class="product-link">View Piece →</a>
+        </div>
+      </div>
+
+      <div class="product-card" id="product2">
+        <div class="product-pedestal">
+          <div class="product-aura"></div>
+          <img src="assets/product_textile.png" alt="Drift Tapestry — Handwoven textile wall art" class="product-img">
+        </div>
+        <div class="product-info">
+          <span class="product-category">Textiles</span>
+          <h3 class="product-name">Drift Tapestry</h3>
+          <p class="product-desc">Handwoven in silk and cotton, this piece captures movement frozen in time. A wall's most intimate conversation.</p>
+          <a href="#" class="product-link">View Piece →</a>
+        </div>
+      </div>
+
+      <div class="product-card" id="product3">
+        <div class="product-pedestal">
+          <div class="product-aura"></div>
+          <img src="assets/product_wall_art.png" alt="Reverie Study — Abstract canvas painting" class="product-img">
+        </div>
+        <div class="product-info">
+          <span class="product-category">Wall Art</span>
+          <h3 class="product-name">Reverie Study</h3>
+          <p class="product-desc">Oil on canvas. A swirling dreamscape in pastel. Belongs in light-filled rooms that breathe.</p>
+          <a href="#" class="product-link">View Piece →</a>
+        </div>
+      </div>
+
+      <div class="product-card" id="product4">
+        <div class="product-pedestal">
+          <div class="product-aura"></div>
+          <img src="assets/product_vase.png" alt="Brushstroke Vessel — Hand-painted ceramic vase" class="product-img">
+        </div>
+        <div class="product-info">
+          <span class="product-category">Ceramics</span>
+          <h3 class="product-name">Brushstroke Vessel</h3>
+          <p class="product-desc">Hand-painted with artist-grade pigments. No two alike. A poem in ceramic and color.</p>
+          <a href="#" class="product-link">View Piece →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="collections-cta">
+      <a href="#" class="btn-outline">View Full Collection</a>
+    </div>
+  </section>
+
+  <!-- Artists Section -->
+  <section class="artists-section" id="artists">
+    <div class="artists-inner">
+      <div class="artists-text">
+        <span class="section-label">The Makers</span>
+        <h2 class="section-title">Our Artists</h2>
+        <p class="artists-desc">We partner exclusively with artists whose work carries intention — each maker selected for their mastery of medium and their unique creative voice. From potters in Jaipur to weavers in Oaxaca, every artist in our roster is both craftsperson and visionary.</p>
+        <a href="#" class="btn-primary" id="artistsCta">
+          <span class="btn-text">MEET THE ARTISTS</span>
+          <div class="btn-gradient-overlay"></div>
+        </a>
+      </div>
+      <div class="artists-visual">
+        <div class="artists-float-grid">
+          <div class="float-circle fc-pink"></div>
+          <div class="float-circle fc-lavender"></div>
+          <div class="float-circle fc-yellow"></div>
+          <div class="float-circle fc-blue"></div>
+          <div class="float-circle fc-peach"></div>
+          <div class="artists-quote">
+            <span class="quote-mark">"</span>
+            <p>Art is not what you see, but what you make others feel.</p>
+            <span class="quote-attribution">— Edgar Degas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interior Styling Section -->
+  <section class="styling-section" id="styling">
+    <div class="styling-header">
+      <span class="section-label">Transform Your Space</span>
+      <h2 class="section-title styling-title">Interior Styling</h2>
+    </div>
+
+    <div class="styling-immersive">
+      <div class="styling-room">
+        <img src="assets/interior_living_room.png" alt="Art-curated luxury living room styled by Artworld Rose & Payal" class="styling-room-img" id="stylingRoomImg">
+        <div class="styling-overlay">
+          <div class="floating-decor floating-vase" id="floatingVase">
+            <div class="floating-dot"></div>
+          </div>
+          <div class="floating-decor floating-frame" id="floatingFrame">
+            <div class="floating-dot"></div>
+          </div>
+        </div>
+        <div class="styling-text-overlay">
+          <h3 class="styling-room-title">The Art of Living</h3>
+          <p class="styling-room-desc">Curated rooms that breathe culture and intention.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="styling-services">
+      <div class="service-card">
+        <div class="service-icon">✦</div>
+        <h3>Full Room Curation</h3>
+        <p>From concept to installation — we design the entire room with hand-selected art, textiles, and objects.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">◈</div>
+        <h3>Art Consultation</h3>
+        <p>One-on-one sessions to match your space with the perfect artwork from our curated roster of artists.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">⟡</div>
+        <h3>Event Transformations</h3>
+        <p>We transform venues into gallery-like experiences for weddings, corporate events, and private celebrations.</p>
+      </div>
+    </div>
+
+    <div class="styling-cta-wrapper">
+      <a href="contact.html" class="btn-primary btn-large" id="stylingBookBtn">
+        <span class="btn-text">BOOK YOUR STYLING SESSION</span>
+        <div class="btn-gradient-overlay"></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Past Events Preview -->
+  <section class="events-preview" id="events">
+    <div class="section-header">
+      <span class="section-label">Our Portfolio</span>
+      <h2 class="section-title">Past Events</h2>
+      <p class="section-sub">Every event is a world unto itself — carefully composed, artfully executed.</p>
+    </div>
+
+    <div class="events-grid">
+      <div class="event-card event-card-large" id="eventCard1">
+        <div class="event-img-wrap">
+          <img src="assets/event_celebration.png" alt="Elegance in Bloom — Luxury wedding styling by Artworld Rose & Payal" class="event-img">
+          <div class="event-overlay">
+            <div class="event-info">
+              <span class="event-tag">Wedding</span>
+              <h3>Elegance in Bloom</h3>
+              <p>A pastel dream — 400 guests immersed in a world of lavender and gold.</p>
+              <a href="events.html" class="event-link">View Gallery →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event-card" id="eventCard2">
+        <div class="event-img-wrap">
+          <img src="assets/product_wall_art.png" alt="Gallery Night — Art exhibition curated by Artworld" class="event-img">
+          <div class="event-overlay">
+            <div class="event-info">
+              <span class="event-tag">Art Exhibition</span>
+              <h3>Gallery Night</h3>
+              <p>A private showcase for 60 collectors.</p>
+              <a href="events.html" class="event-link">View Gallery →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event-card" id="eventCard3">
+        <div class="event-img-wrap">
+          <img src="assets/interior_living_room.png" alt="The Rose Suite — Luxury showroom opening styling" class="event-img">
+          <div class="event-overlay">
+            <div class="event-info">
+              <span class="event-tag">Showroom</span>
+              <h3>The Rose Suite</h3>
+              <p>A luxury showroom opening, art-directed from floor to ceiling.</p>
+              <a href="events.html" class="event-link">View Gallery →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="events-cta">
+      <a href="events.html" class="btn-outline">All Past Events</a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="testimonials-inner">
+      <span class="section-label">Words From Our Clients</span>
+      <div class="testimonials-carousel" id="testimonialsCarousel">
+        <div class="testimonial-slide active">
+          <blockquote>"Artworld transformed our wedding venue into something I had only ever seen in dreams. Every corner felt intentional, every flower placed with purpose."</blockquote>
+          <cite>— Priya M., Singapore</cite>
+        </div>
+        <div class="testimonial-slide">
+          <blockquote>"The sculpture they sourced for our entryway is the first thing guests notice. It has sparked more conversations than anything else in our home."</blockquote>
+          <cite>— Marcus T., London</cite>
+        </div>
+        <div class="testimonial-slide">
+          <blockquote>"Working with Rose and Payal felt like collaborating with artists. They listened, they shaped our vision, and then they exceeded it."</blockquote>
+          <cite>— Ananya K., Mumbai</cite>
+        </div>
+      </div>
+      <div class="testimonial-dots" id="testimonialDots">
+        <button class="t-dot active" data-index="0"></button>
+        <button class="t-dot" data-index="1"></button>
+        <button class="t-dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-visual">
+        <div class="about-paint-blob ab1"></div>
+        <div class="about-paint-blob ab2"></div>
+        <div class="about-paint-blob ab3"></div>
+        <div class="about-monogram">RP</div>
+      </div>
+      <div class="about-text">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">Rose & Payal</h2>
+        <p>Born from a shared obsession with beauty and craft, Artworld was founded by Rose and Payal — two women who believed that the spaces we inhabit should inspire us as deeply as the art we hang in them.</p>
+        <p>From hand-picking artisans across Asia to styling luxury events across three continents, we bring the same curatorial eye to every project — whether it's a 500-person gala or a single perfect vase for your living room mantle.</p>
+        <p>We are based in Singapore, and we work globally.</p>
+        <div class="about-instagram">
+          <a href="https://instagram.com/artworld_sg" target="_blank" rel="noopener" class="instagram-link" id="instagramLink">
+            <svg viewBox="0 0 24 24" class="ig-icon" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            @artworld_sg
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Banner -->
+  <section class="cta-banner">
+    <div class="cta-banner-bg">
+      <div class="cta-blob cb1"></div>
+      <div class="cta-blob cb2"></div>
+    </div>
+    <div class="cta-banner-inner">
+      <h2 class="cta-banner-title">Ready to Transform Your World?</h2>
+      <p class="cta-banner-sub">Let us curate an experience that is unmistakably yours.</p>
+      <a href="contact.html" class="btn-primary btn-large" id="finalCtaBtn">
+        <span class="btn-text">BOOK YOUR STYLING SESSION</span>
+        <div class="btn-gradient-overlay"></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Artworld Rose & Payal" class="footer-logo">
+        <p class="footer-tagline">Luxury Decor & Curated Event Styling</p>
+        <a href="https://instagram.com/artworld_sg" target="_blank" rel="noopener" class="footer-ig" id="footerIg">
+          @artworld_sg
+        </a>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-heading">Explore</h4>
+        <ul>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#artists">Artists</a></li>
+          <li><a href="#styling">Styling</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-heading">Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-heading">Connect</h4>
+        <ul>
+          <li><a href="https://instagram.com/artworld_sg" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Artworld Rose & Payal. All rights reserved. Singapore.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

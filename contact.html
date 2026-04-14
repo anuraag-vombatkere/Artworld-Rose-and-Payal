@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Artworld Rose & Payal</title>
+  <meta name="description" content="Get in touch with Artworld Rose & Payal for luxury decor curation, art consultation, or event styling in Singapore and globally.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Global Background Decorations -->
+  <div class="bg-decorations">
+    <div class="bg-splash splash-1"></div>
+    <div class="bg-splash splash-2"></div>
+    <div class="bg-splash splash-3"></div>
+    <div class="bg-splash splash-4"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.png" alt="Artworld Rose & Payal Logo" class="nav-logo-img">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#collections" class="nav-link"><span class="nav-drip"></span>Collections</a></li>
+        <li><a href="index.html#artists" class="nav-link"><span class="nav-drip"></span>Artists</a></li>
+        <li><a href="index.html#styling" class="nav-link"><span class="nav-drip"></span>Styling</a></li>
+        <li><a href="events.html" class="nav-link"><span class="nav-drip"></span>Events</a></li>
+        <li><a href="index.html#about" class="nav-link"><span class="nav-drip"></span>About Us</a></li>
+        <li><a href="contact.html" class="nav-link"><span class="nav-drip"></span>Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-inner">
+      <div class="contact-text">
+        <span class="section-label">Get In Touch</span>
+        <h1 class="contact-title">Let's Curate Your Vision</h1>
+        <p class="contact-desc">Whether you're looking for a single statement piece to anchor a room, a full interior styling transformation, or an immersive event experience, we're here to help you bring your vision to life.</p>
+        
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="contact-detail-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Email</h4>
+              <p><a href="mailto:hello@artworld.sg">hello@artworld.sg</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <div class="contact-detail-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Studio</h4>
+              <p>Orchard Road, Singapore<br>By Appointment Only</p>
+            </div>
+          </div>
+          
+          <div class="contact-detail">
+            <div class="contact-detail-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Hours</h4>
+              <p>Mon — Fri: 10am - 6pm<br>Sat: 11am - 4pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="Rose">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="Payal">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="hello@artworld.sg">
+        </div>
+        
+        <div class="form-group">
+          <label for="interest">Interested In</label>
+          <select id="interest" name="interest">
+            <option value="curation">Decor Curation</option>
+            <option value="styling">Interior Styling</option>
+            <option value="event">Event Design</option>
+            <option value="art">Art Consultation</option>
+            <option value="other">Other Inquiry</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" required placeholder="Tell us about your project or vision..."></textarea>
+        </div>
+        
+        <div class="form-submit">
+          <button type="submit" class="btn-primary">
+            <span class="btn-text">SEND MESSAGE</span>
+            <div class="btn-gradient-overlay"></div>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Artworld Rose & Payal" class="footer-logo">
+        <p class="footer-tagline">Luxury Decor & Curated Event Styling</p>
+        <a href="https://instagram.com/artworld_sg" target="_blank" rel="noopener" class="footer-ig">@artworld_sg</a>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-heading">Explore</h4>
+        <ul>
+          <li><a href="index.html#collections">Collections</a></li>
+          <li><a href="index.html#artists">Artists</a></li>
+          <li><a href="index.html#styling">Styling</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-heading">Company</h4>
+        <ul>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <h4 class="footer-heading">Connect</h4>
+        <ul>
+          <li><a href="https://instagram.com/artworld_sg" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Artworld Rose & Payal. All rights reserved. Singapore.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
