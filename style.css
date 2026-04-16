@@ -522,15 +522,16 @@ body.cursor-hover .cursor-ring {
   align-items: center;
   justify-content: center;
   padding: 1rem 2.5rem;
-  background: var(--white);
-  border: 2px solid var(--charcoal);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--soft-grey);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.015);
   font-family: var(--font-sans);
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.2em;
-  color: var(--charcoal);
+  color: var(--dark-grey);
   overflow: hidden;
-  transition: color 0.5s var(--ease-out), border-color 0.5s;
+  transition: color 0.5s var(--ease-out), border-color 0.5s, box-shadow 0.5s;
 }
 
 .btn-text {
