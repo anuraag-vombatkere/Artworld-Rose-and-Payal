@@ -346,7 +346,7 @@ body.cursor-hover .cursor-ring {
 /* Hero logo (inside hero section) */
 .hero-logo-container {
   animation: floatCenter 16s ease-in-out infinite;
-  margin-bottom: -1rem; /* Pull rule closer to logo */
+  margin-bottom: -5rem; /* Pull rule closer to logo */
 }
 
 @keyframes floatCenter {
