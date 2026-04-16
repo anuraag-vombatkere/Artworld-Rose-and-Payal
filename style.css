@@ -466,6 +466,15 @@ body.cursor-hover .cursor-ring {
   justify-content: center;
   flex-wrap: wrap;
   animation: fadeInUp 1.2s var(--ease-out) 0.7s both;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-actions .btn-primary {
+  flex: 1;
+  min-width: 280px;
+  max-width: 320px;
 }
 
 @keyframes fadeInUp {
@@ -1850,7 +1859,7 @@ body.cursor-hover .cursor-ring {
   top: -60px; right: -120px;
   background: radial-gradient(ellipse at 38% 42%, #f7b8c8 0%, #f48da7 45%, rgba(244,141,167,0) 72%);
   border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
-  opacity: 0.18;
+  opacity: 0.36;
   filter: blur(45px);
   animation: blobMorph1 22s ease-in-out infinite;
 }
@@ -1861,7 +1870,7 @@ body.cursor-hover .cursor-ring {
   top: 40px; left: -90px;
   background: radial-gradient(ellipse at 55% 45%, #c5b3e6 0%, #a78bde 50%, rgba(167,139,222,0) 75%);
   border-radius: 42% 58% 43% 57% / 47% 62% 38% 53%;
-  opacity: 0.15;
+  opacity: 0.35;
   filter: blur(50px);
   animation: blobMorph2 28s ease-in-out infinite;
 }
@@ -1872,7 +1881,7 @@ body.cursor-hover .cursor-ring {
   top: 30vh; right: -170px;
   background: radial-gradient(ellipse at 35% 55%, #f7e39a 0%, #f5d86a 40%, #f5c79e 68%, rgba(245,199,158,0) 85%);
   border-radius: 55% 45% 38% 62% / 60% 42% 58% 40%;
-  opacity: 0.16;
+  opacity: 0.35;
   filter: blur(40px);
   animation: blobMorph3 24s ease-in-out infinite;
 }
@@ -1883,7 +1892,7 @@ body.cursor-hover .cursor-ring {
   top: 40vh; left: -110px;
   background: radial-gradient(ellipse at 60% 40%, #8be0e8 0%, #5dd3df 50%, rgba(93,211,223,0) 76%);
   border-radius: 38% 62% 57% 43% / 52% 38% 62% 48%;
-  opacity: 0.14;
+  opacity: 0.30;
   filter: blur(48px);
   animation: blobMorph4 20s ease-in-out infinite;
 }
@@ -1894,7 +1903,7 @@ body.cursor-hover .cursor-ring {
   top: 55vh; right: -210px;
   background: radial-gradient(ellipse at 45% 50%, #f5c79e 0%, #f0a86a 38%, #f7b8c8 64%, rgba(247,184,200,0) 84%);
   border-radius: 48% 52% 61% 39% / 43% 56% 44% 57%;
-  opacity: 0.16;
+  opacity: 0.35;
   filter: blur(44px);
   animation: blobMorph1 30s ease-in-out infinite reverse;
 }
@@ -1905,7 +1914,7 @@ body.cursor-hover .cursor-ring {
   top: 65vh; left: -140px;
   background: radial-gradient(ellipse at 50% 35%, #f48da7 0%, #c5b3e6 55%, rgba(197,179,230,0) 80%);
   border-radius: 62% 38% 46% 54% / 38% 55% 45% 62%;
-  opacity: 0.14;
+  opacity: 0.30;
   filter: blur(52px);
   animation: blobMorph2 25s ease-in-out infinite reverse;
 }
@@ -1916,7 +1925,7 @@ body.cursor-hover .cursor-ring {
   top: 78vh; right: -90px;
   background: radial-gradient(ellipse at 40% 60%, #f7e39a 0%, #f5d86a 50%, rgba(245,216,106,0) 78%);
   border-radius: 53% 47% 40% 60% / 60% 44% 56% 40%;
-  opacity: 0.15;
+  opacity: 0.35;
   filter: blur(42px);
   animation: blobMorph3 27s ease-in-out infinite;
 }
@@ -1927,7 +1936,7 @@ body.cursor-hover .cursor-ring {
   bottom: -80px; left: -50px;
   background: radial-gradient(ellipse at 55% 45%, #8be0e8 0%, #5dd3df 38%, #c5b3e6 68%, rgba(197,179,230,0) 85%);
   border-radius: 44% 56% 62% 38% / 57% 43% 57% 43%;
-  opacity: 0.14;
+  opacity: 0.30;
   filter: blur(48px);
   animation: blobMorph4 32s ease-in-out infinite reverse;
 }
