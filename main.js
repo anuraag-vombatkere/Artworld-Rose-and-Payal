@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Scroll Reveal ────────────────────────────────────
   const revealElements = document.querySelectorAll(
-    '.section-header, .product-card, .service-card, .event-card, .event-full-card, ' +
+    '.reveal, .section-header, .product-card, .service-card, .event-card, .event-full-card, ' +
     '.about-inner, .artists-inner, .testimonials-inner, .strip-item, ' +
     '.cta-banner-inner, .contact-inner, .styling-cta-wrapper'
   );
